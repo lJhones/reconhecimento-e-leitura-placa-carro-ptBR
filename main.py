@@ -7,7 +7,7 @@ from utils import exibir_resultado
 import pytesseract
 
 # Configurar o caminho do executável Tesseract (se necessário)
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
 
 def detectar_placa(imagem_path):
